@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff6828">
+  <meta name="description" content="Friedays Talavera Branch. Good Vibes. Great Bites. Sulit Delights.">
+  <title>Friedays | Talavera Branch</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Paytone+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="announcement">
+    GOOD VIBES. GREAT BITES. SULIT DELIGHTS.
+    <span>✦</span> CRAVINGS MADE AFFORDABLE!
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-mark">F</span>
+      <span>FRIEDAYS<small>TALAVERA BRANCH</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#promos">Highlights</a>
+      <a href="#how">How to Order</a>
+      <a href="#visit">Find Us</a>
+      <a class="nav-order" href="#menu">ORDER NOW ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">✦ YOUR CRAVINGS, OUR PRIORITY!</div>
+
+        <h1>
+          BIG CRAVINGS.<br>
+          <em>SMALL BUDGET.</em><br>
+          HAPPY TUMMY.
+        </h1>
+
+        <p>
+          Hungry after class? Looking for a quick meal?
+          Craving something crispy, cheesy, and delicious?
+          Friedays is ready to satisfy your cravings!
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-dark">EXPLORE OUR MENU →</a>
+          <a href="#how" class="text-link">How to order ↗</a>
+        </div>
+
+        <div class="hero-proof">
+          <span>₱35+</span>
+          <div>
+            <b>GOOD FOOD, SULIT PRICES!</b>
+            <small>Enjoy your favorites without breaking your allowance.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="sunburst"></div>
+        <div class="hero-sticker">SULIT<br>NA 'TO!</div>
+
+        <div class="food-circle">
+          <div class="food-emoji">🍗</div>
+          <div class="food-caption">CRAVE IT. LOVE IT.</div>
+        </div>
+
+        <div class="floating-chip chip-one">🍟 SNACK ATTACK!</div>
+        <div class="floating-chip chip-two">YUMMY!</div>
+        <div class="squiggle">✳</div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <span>GOOD VIBES</span> ✦
+      <span>GREAT BITES</span> ✦
+      <span>SULIT DELIGHTS</span> ✦
+      <span>GOOD VIBES</span> ✦
+      <span>GREAT BITES</span>
+    </div>
+
+    <!-- MENU SECTION -->
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">WHAT ARE YOU CRAVING TODAY?</div>
+          <h2>Pick your <em>happy.</em></h2>
+        </div>
+
+        <p>
+          From crispy chicken to cheesy snacks and refreshing drinks,
+          there's something for every craving!
+        </p>
+      </div>
+
+      <div class="menu-toolbar">
+        <div class="category-tabs" id="categoryTabs">
+          <button class="tab active" data-category="All">All</button>
+          <button class="tab" data-category="Meals">Meals</button>
+          <button class="tab" data-category="Chicken">Chicken</button>
+          <button class="tab" data-category="Street Food">Street Food</button>
+          <button class="tab" data-category="Snacks">Snacks</button>
+          <button class="tab" data-category="Drinks">Drinks</button>
+        </div>
+
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="menuSearch" type="search" placeholder="Search your cravings...">
+        </label>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+
+      <p class="menu-note">
+        Menu prices are based on the updated menu provided.
+        Please confirm availability and final prices with the branch.
+      </p>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section class="deal-banner" id="promos">
+      <div class="deal-doodle">₱</div>
+
+      <div>
+        <div class="eyebrow">SULIT ALERT!</div>
+        <h2>CRAVINGS THAT<br><em>FIT YOUR BUDGET.</em></h2>
+        <p>Affordable meals, snacks, and chicken favorites await!</p>
+      </div>
+
+      <a href="#menu" class="btn btn-light">CHECK THE MENU ↗</a>
+    </section>
+
+    <section class="section highlights-section">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">MORE REASONS TO SMILE</div>
+          <h2>Good food. <em>Good mood.</em></h2>
+        </div>
+
+        <p>
+          Make every snack break and meal time a little more exciting
+          with Friedays favorites.
+        </p>
+      </div>
+
+      <div class="promo-grid">
+        <article class="promo-card promo-orange">
+          <div class="promo-icon">🍗</div>
+          <span class="promo-tag">CHICKEN LOVERS</span>
+          <h3>Chicken Cravings</h3>
+          <p>
+            Enjoy chicken wings, boneless chicken, poppers,
+            and tenders with your favorite flavors.
+          </p>
+          <div class="promo-foot">CRISPY. TASTY. SATISFYING.</div>
+        </article>
+
+        <article class="promo-card promo-yellow">
+          <div class="promo-icon">🍟</div>
+          <span class="promo-tag">SNACK ATTACK</span>
+          <h3>Snack Time!</h3>
+          <p>
+            Cheesy fries, nuggets, siomai, and other
+            snack-time favorites are waiting for you.
+          </p>
+          <div class="promo-foot">A LITTLE TREAT GOES A LONG WAY.</div>
+        </article>
+
+        <article class="promo-card promo-pink">
+          <div class="promo-icon">🥤</div>
+          <span class="promo-tag">DRINKS & MORE</span>
+          <h3>Refresh Yourself</h3>
+          <p>
+            Pair your favorite Friedays food with
+            a refreshing drink.
+          </p>
+          <div class="promo-foot">SIP. SNACK. REPEAT.</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW TO ORDER -->
+    <section class="section order-section" id="how">
+      <div class="order-intro">
+        <div class="eyebrow">YOUR CRAVINGS ARE JUST A FEW CLICKS AWAY</div>
+        <h2>Order your way. <em>Enjoy your day.</em></h2>
+
+        <p>
+          Browse the menu, add your favorites to your cart,
+          and prepare your pre-order request.
+        </p>
+
+        <div class="steps">
+          <div>
+            <b>01</b>
+            <span>
+              <strong>CHOOSE YOUR FAVORITES</strong>
+              <small>Browse the menu and add items to your cart.</small>
+            </span>
+          </div>
+
+          <div>
+            <b>02</b>
+            <span>
+              <strong>FILL OUT YOUR DETAILS</strong>
+              <small>Enter your name and preferred pickup details.</small>
+            </span>
+          </div>
+
+          <div>
+            <b>03</b>
+            <span>
+              <strong>SEND YOUR REQUEST</strong>
+              <small>Send your order through Facebook Messenger.</small>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-panel">
+        <div class="panel-title">
+          <div>
+            <div class="eyebrow">YOUR CRAVING LIST</div>
+            <h3>Order Summary</h3>
+          </div>
+          <span class="cart-count" id="cartCount">0 ITEMS</span>
+        </div>
+
+        <div id="cartItems" class="cart-items">
+          <div class="empty-cart">
+            Your cart is waiting for something delicious. 🍟
+          </div>
+        </div>
+
+        <div class="cart-total">
+          <span>Estimated Total</span>
+          <strong id="cartTotal">₱0.00</strong>
+        </div>
+
+        <p class="small-print">
+          Estimated total only. Final price and availability
+          must be confirmed by the branch.
+        </p>
+
+        <button class="btn btn-orange full-width" id="checkoutBtn">
+          CONTINUE TO ORDER DETAILS →
+        </button>
+      </div>
+    </section>
+
+    <!-- CHECKOUT -->
+    <section class="checkout-wrap" id="checkout" hidden>
+      <div class="checkout-card">
+        <div class="section-heading compact">
+          <div>
+            <div class="eyebrow">ALMOST THERE!</div>
+            <h2>Pickup <em>details.</em></h2>
+          </div>
+
+          <button class="close-checkout" id="closeCheckout">✕</button>
+        </div>
+
+        <form id="orderForm">
+          <div class="form-grid">
+            <label>
+              Your Name
+              <input name="customerName" required maxlength="60" placeholder="Enter your name">
+            </label>
+
+            <label>
+              Contact Number
+              <input name="phone" required inputmode="tel" placeholder="09XX XXX XXXX">
+            </label>
+
+            <label>
+              Preferred Pickup Date
+              <input name="pickupDate" id="pickupDate" type="date" required>
+            </label>
+
+            <label>
+              Preferred Pickup Time
+              <input name="pickupTime" type="time" required>
+            </label>
+
+            <label class="full-span">
+              Notes / Special Instructions
+              <textarea name="notes" rows="3" placeholder="Flavor choices or other instructions..."></textarea>
+            </label>
+          </div>
+
+          <div class="pickup-notice">
+            Sending a pre-order request does not automatically confirm
+            your order. Please wait for a reply from Friedays staff.
+          </div>
+
+          <button class="btn btn-dark full-width" type="submit">
+            PREPARE MY ORDER REQUEST ↗
+          </button>
+
+          <p class="small-print">
+            Your order message will be copied when clipboard access is available.
+            You can then paste it into the branch's Messenger conversation.
+          </p>
+        </form>
+
+        <div id="orderResult" class="order-result" role="status" hidden></div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="visit-section" id="visit">
+      <div>
+        <div class="eyebrow">COME THROUGH, FOODIE!</div>
+        <h2>Find your <em>Friedays fix.</em></h2>
+
+        <p>
+          Near Talavera National High School,
+          Diaz St., Brgy. Pag-asa, Talavera, Nueva Ecija.
+        </p>
+
+        <a class="btn btn-light" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Friedays+Talavera+Nueva+Ecija">
+          GET DIRECTIONS ↗
+        </a>
+
+        <p class="location-note">
+          Please verify the branch address and operating hours before publishing.
+        </p>
+      </div>
+
+      <div class="map-card">
+        <div class="map-pin">📍</div>
+        <strong>FRIEDAYS — TALAVERA BRANCH</strong>
+        <span>Talavera, Nueva Ecija</span>
+        <small>Good Vibes. Great Bites. Sulit Delights.</small>
+        <div class="map-lines"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">F</span>
+      <span>FRIEDAYS<small>TALAVERA BRANCH</small></span>
+    </a>
+
+    <p>Good Vibes. Great Bites. Sulit Delights.</p>
+
+    <small>
+      © <span id="year"></span> Friedays – Talavera Branch.
+      Menu and availability subject to confirmation.
+    </small>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
